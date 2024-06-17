@@ -1,0 +1,111 @@
+@import '@/styles/styles.scss';
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 30px;
+  background-color: $secondary-color;
+  min-width: 240px;
+  height: 700px;
+  margin-top: 2rem;
+}
+
+.containerLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 3rem;
+  .logo {
+    width: 58px;
+    height: 58px;
+  }
+}
+
+.containerMenu {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 120px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 47px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 0 30px 30px 0;
+
+  &:hover {
+    background-color: $button-hover-color;
+    color: $secondary-color;
+    border-radius: 0 30px 30px 0;
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  &.selected {
+    background-color: $primary-color;
+    color: $secondary-color;
+    border-radius: 0 30px 30px 0;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+
+  img {
+    margin-right: 8px;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 15px;
+  width: 160px;
+  height: 100px;
+  background: $background-color;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.infoTitle {
+  color: $primary-text;
+  font-size: 16px;
+  margin: 0;
+}
+
+.infoText {
+  color: $secondary-text;
+  font-size: 10px;
+  margin: auto;
+}
+
+.gift {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+}
+
+.InfoButton {
+  margin-top: 10px;
+  background: #d8ecff;
+  width: 68px;
+  height: 32px;
+  font-size: 12px;
+  color: $primary-text;
+  font-weight: 300;
+}

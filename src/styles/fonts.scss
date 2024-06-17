@@ -1,0 +1,46 @@
+
+// Regular
+@font-face {
+  font-family: 'Circe Rounded';
+  src: url('../fonts/CirceRounded-Regular.woff2') format('woff2'),
+       url('../fonts/CirceRounded-Regular.woff') format('woff'),
+       url('../fonts/CirceRounded-Regular.ttf') format('truetype'),
+       url('../fonts/CirceRounded-Regular.eot'); /* IE9 Compat Modes */
+  font-weight: normal;
+  font-style: normal;
+}
+
+// Bold
+@font-face {
+  font-family: 'Circe Rounded';
+  src: url('../fonts/CirceRounded-Bold.woff2') format('woff2'),
+       url('../fonts/CirceRounded-Bold.woff') format('woff'),
+       url('../fonts/CirceRounded-Bold.ttf') format('truetype'),
+       url('../fonts/CirceRounded-Bold.eot'); /* IE9 Compat Modes */
+  font-weight: bold;
+  font-style: normal;
+}
+
+// Extra Light
+@font-face {
+  font-family: 'Circe Rounded';
+  src: url('../fonts/CirceRounded-ExtraLight.woff2') format('woff2'),
+       url('../fonts/CirceRounded-ExtraLight.woff') format('woff'),
+       url('../fonts/CirceRounded-ExtraLight.ttf') format('truetype'),
+       url('../fonts/CirceRounded-ExtraLight.eot'); /* IE9 Compat Modes */
+  font-weight: 200;
+  font-style: normal;
+}
+
+// Alt Bold
+@font-face {
+  font-family: 'Circe Rounded';
+  src: url('../fonts/CirceRounded-AltBold.woff2') format('woff2'),
+       url('../fonts/CirceRounded-AltBold.woff') format('woff'),
+       url('../fonts/CirceRounded-AltBold.ttf') format('truetype'),
+       url('../fonts/CirceRounded-AltBold.eot'); /* IE9 Compat Modes */
+  font-weight: bold;
+  font-style: normal;
+}
+
+

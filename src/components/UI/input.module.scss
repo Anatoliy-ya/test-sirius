@@ -1,0 +1,30 @@
+@import '@/styles/styles.scss';
+@import '@/styles/fonts.scss';
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  border: 1px solid $border-color;
+  border-radius: 8px;
+  height: 36px;
+  padding: 0 0 0 10px;
+  font-size: 12px;
+}
+
+.eyeButton {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

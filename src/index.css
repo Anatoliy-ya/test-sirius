@@ -1,0 +1,19 @@
+@import '@/styles/fonts.scss';
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Circe Rounded', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+input::placeholder {
+  font-family: 'Circe Rounded', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+#is-service-frame {
+  display: none;
+}

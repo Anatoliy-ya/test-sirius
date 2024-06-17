@@ -1,0 +1,22 @@
+@import '@/styles/styles.scss';
+
+.dayColumn {
+  border: 1px solid #e0e0e0;
+  border-right: none;
+  flex: 1;
+  min-height: 110px;
+  width: 190px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  &.sunday {
+    border-right: 1px solid #e0e0e0;
+  }
+}
+
+.dayNumber {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}

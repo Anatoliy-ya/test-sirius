@@ -1,0 +1,16 @@
+@import '@/styles/fonts.scss';
+@import '@/styles/styles.scss';
+
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: $background-color;
+}

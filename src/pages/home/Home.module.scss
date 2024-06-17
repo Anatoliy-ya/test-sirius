@@ -1,0 +1,9 @@
+@import '@/styles/styles.scss';
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: $background-color;
+}
