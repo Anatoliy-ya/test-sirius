@@ -14,6 +14,7 @@ const DropdownChangeAccount: React.FC = () => {
   const dropdownRef = useRef<HTMLDivElement>(null);
   const dispatch = useDispatch();
   const isAuthenticated = useSelector(selectIsAuthenticated);
+  console.log('isAuthenticated', isAuthenticated);
   const toggleDropdown = () => {
     console.log('click', !isOpen);
     setIsOpen(!isOpen);

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './Calendar.module.scss';
-import DayColumn from './DayColumn';
 import WeekRow from './WeekRow';
 import { EventProps } from './../../../data/schedule';
 

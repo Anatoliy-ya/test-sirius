@@ -30,7 +30,9 @@ const selectedPath = createSlice({
   name: 'selectedPath',
   initialState: 'home',
   reducers: {
-    setSelectedPath: (state, action: PayloadAction<string>) => action.payload,
+    setSelectedPath: (state, action: PayloadAction<string>) => (
+      console.log(state), (state = action.payload)
+    ),
   },
 });
 

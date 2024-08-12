@@ -9,7 +9,7 @@ interface DayColumnProps {
   weekDay: number;
 }
 
-const DayColumn: React.FC<DayColumnProps> = ({ day, events, weekDay }) => {
+const DayColumn: React.FC<DayColumnProps> = ({ day, events }) => {
   return (
     <div className={styles.dayColumn}>
       <div className={styles.dayHeader}>{day}</div>
