@@ -1,0 +1,110 @@
+@import '@/styles/styles.scss';
+
+.dropdown {
+  position: relative;
+}
+
+.dropbtn {
+  color: white;
+  padding: 16px 0px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownContent.show {
+  display: block;
+}
+
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 30px;
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  background-color: $background-color;
+  max-width: 250px;
+  max-height: 260px;
+  border: 1px solid $primary-color;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+
+  a {
+    color: $primary-text;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}
+
+.title {
+  font-size: 16px;
+  color: $primary-text;
+}
+
+.chosenAccount {
+  align-content: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 10px 0;
+  width: 190px;
+  height: 50px;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+
+  &.selected {
+    background-color: $secondary-color;
+  }
+}
+
+.avatarAccount {
+  padding: 0 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.borderBottom {
+  border-bottom: 1px solid $border-color;
+}
+.polygon {
+  position: absolute;
+  top: 42px;
+  right: 32px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  img {
+    cursor: pointer;
+  }
+}
+
+.buttonLogout {
+  cursor: pointer;
+  padding: 0;
+  color: $link-color;
+
+  &:hover {
+    color: $button-hover-color;
+  }
+}

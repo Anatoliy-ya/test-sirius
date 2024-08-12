@@ -1,0 +1,98 @@
+@import '@/styles/styles.scss';
+
+.login {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 340px;
+  height: 535px;
+  background-color: $background-color;
+  width: 350px;
+  position: relative;
+  margin: auto;
+}
+
+.logo {
+  margin-bottom: 2rem;
+}
+
+.label {
+  font-size: 40px;
+  color: $primary-text;
+  white-space: nowrap;
+}
+
+.loginInput {
+  margin-bottom: 1rem;
+  width: 339px;
+}
+
+.checkbox {
+  margin-bottom: 1rem;
+  color: $secondary-text;
+}
+
+.button {
+  margin: 1rem 0;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 339px;
+
+  a {
+    text-decoration: none;
+    color: $link-color;
+  }
+
+  a:hover {
+    color: $button-hover-color;
+  }
+}
+
+.noAccount {
+  color: $primary-text;
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+
+  a {
+    text-decoration: none;
+    color: $link-color;
+    margin: 0;
+  }
+
+  a:hover {
+    color: $button-hover-color;
+  }
+}
+
+.languageSwitcher {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.languageButton {
+  border: none;
+  background-color: $background-color;
+  color: $secondary-text;
+  cursor: pointer;
+
+  &.chosenLanguage {
+    font-size: 24px;
+    color: $button-hover-color;
+    font-weight: 500;
+  }
+}
